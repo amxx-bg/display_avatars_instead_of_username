@@ -1,0 +1,7 @@
+services:
+    evilsystem.display_avatars_instead_of_username.listener:
+        class: evilsystem\display_avatars_instead_of_username\event\listener
+        arguments:
+            - @user
+        tags:
+            - { name: event.listener }

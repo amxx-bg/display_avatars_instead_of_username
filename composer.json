@@ -1,0 +1,25 @@
+{
+	"name": "evilsystem/display_avatars_instead_of_username",
+	"type": "phpbb-extension",
+	"description": "Display avatars instead of usernames",
+	"homepage": "https://www.amxx-bg.info",
+	"version": "1.0.0",
+	"license": "GPL-2.0-only",
+	"authors": [
+		{
+			"name": "Stf Kolev",
+			"email": "inkyzfx@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.4",
+		"composer/installers": "~1.0"
+	},
+	"extra": {
+		"display-name": "Display avatars instead of usernames",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.2.0,<3.4"
+		}
+	}
+}
